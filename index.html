@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aman fitness</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        color: antiquewhite;
+        margin: 0px;
+        padding: 0px;
+        background: url("img/bg.jpg");
+        height: 2044px;
+
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        width: 80px;
+
+    }
+    .left img{
+   width: 79px;
+     
+    }
+    .left div{
+        text-align: center;
+    }
+    .center {
+        /* border: 2px solid palevioletred; */
+        display: block;
+        width: 46%;
+        margin: 20px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        /* border: 2px solid yellow; */
+        display: inline-block;
+    }
+    /* .navbar{
+        display: inline-block;
+
+    } */
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a{
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 20px 23px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: gray;
+    }
+    .btn{
+        background-color :black;
+        color: whitesmoke;
+        padding: 5px 20px;
+        margin: 0px 20px;
+        border:  palevioletred;
+        border-radius: 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+    color: gray;
+    text-decoration: underline;
+    }
+    .container{
+        /* border: 2px solid whitesmoke; */
+        margin: 52px 200px;
+        padding: 15px 3px;
+        width: 33%;
+         border-radius: 20px;
+    }
+    .form-group input{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        display: block;
+        width: 51%;
+        padding: 11px 8px;
+        margin: 21px auto;
+        /* automis worked becouse display block */
+        /* border: 2px solid black; */
+        border-radius: 15px;
+
+    }
+    .container h2{
+        /* border: 2px solid mediumslateblue; */
+        text-align: center;
+        color: gray;
+    }
+    .form-group ::placeholder{
+        font-size: 20px;
+        padding: 4px 4px;
+    }
+    .container button{
+        display: block;
+        width: 32%;
+        margin: 12px auto;
+
+    }
+    .form-aman{
+        display: block;
+        padding: 3px 83px;
+        margin: 3px auto;
+        font-size: 24px;
+       width: 75%;
+
+    }
+    .form-aman:active{
+        color: gray;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+           <img src="img/bm.png" alt="error">
+        </div>
+        <div class="center">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">fitness center</a></li>
+                    <li><a href="#">contect us</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="right">
+    <button class="btn">call us</button>
+    <button class="btn">email us</button>
+        </div>
+    </header>
+ <div class="container">
+    <h2>JOIN THE BEST GYM IN MATHURA CITY</h2>
+  <form action="aman.nodejs">
+    <div class="form-group">
+        <input type="text" name="" placeholder="your name">   
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="your age">   
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="phone number">   
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="email address">   
+    </div>
+    <div CLASS="form-aman">
+        Gender: Male-<input type="radio" name="my gender">
+        Female-<input type="radio" name="my gender">
+        other-<input type="radio" name="my gender">
+    </div>
+    <button class="btn">submit</button>
+  </form>
+ </div>
+
+</body>
+
+</html>
